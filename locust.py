@@ -3,7 +3,7 @@ import random
 from flask import Flask
 from locust import HttpUser, task, between
 
-''' Basic Load Testing '''
+# Basic Load Testing
 
 app = Flask(__name__)
 PORT = 3000
@@ -24,7 +24,7 @@ if __name__ == '__main__':
     app.run(port=PORT)
     
     
-''' Auth Load Testing '''
+# # Auth Load Testing
 
 # class QuickstartUser(HttpUser):
 #     def __init__(self, parent):
@@ -41,7 +41,7 @@ if __name__ == '__main__':
 #     def secret_page(self):
 #         self.client.get(url="/secret", headers={"authorization": self.token})
 
-''' Data Load Testing ( Data and Failures ) '''
+# # Data Load Testing ( Data and Failures )
 
 # class User(HttpUser):
 #     def __init__(self, parent):

@@ -1,4 +1,4 @@
-''' Basic Load Testing '''
+# Basic Load Testing
 
 from flask import Flask
 import time
@@ -18,7 +18,7 @@ def slow():
 if __name__ == '__main__':
     app.run(port=PORT)
 
-''' Auth Load Testing '''
+# # Auth Load Testing 
 
 # from flask import Flask, request, jsonify
 # import functools
@@ -50,7 +50,7 @@ if __name__ == '__main__':
 # if __name__ == '__main__':
 #     app.run(port=PORT)
 
-''' Data Load Testing ( Data and Failures ) '''
+# # Data Load Testing ( Data and Failures )
 
 # from flask import Flask, request, jsonify
 # import functools
